@@ -1,0 +1,143 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1{
+    font-size: 66px; font-weight: 600; line-height: 80px; color: #000000;
+}
+h2{
+    font-size: 66px; font-weight: 600; line-height: 80px; color: #ffffff;
+}
+p{
+    font-size: 18px;
+    color: #636363;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+
+section{padding: 120px;}
+
+.topmargin-xs{margin-top: 15px;}
+.topmargin-sm{margin-top: 30px;}
+.topmargin-lg{margin-top: 60px;}
+
+.navbar{
+    background-color: #BEBEBE	;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 100px;
+}
+
+.nav-link { color: #000000; }
+.nav-link:hover { color: #000000; }
+
+.logo-brand{ 
+    min-width: 160px;
+    max-width: 180px;
+}
+
+.navbar-toggler{
+    font-size: 40px;
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+
+#reparaciones{
+    background-image: url('img/repimg.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 750px;
+    color: #ffffff;
+}
+
+#reparaciones2{
+    background-image: url('img/office.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 750px;
+    color: #ffffff;
+    
+}
+
+#reparaciones3{
+    background-image: url('img//pcgamer.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 750px;
+    color: #ffffff;
+    
+}
+
+#reparaciones4{
+    background-image: url('img//W10.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 750px;
+    color: #ffffff;
+}
+
+.mapa{
+    margin-top: 25px;
+    margin-bottom: 100px;
+    border-style: solid;
+}
+
+
+.content-center{
+    padding: 10%;
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.portfolio-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.portfolio-container img{
+    -moz-animation: all 0.8s;
+    -webkit-animation: all 0.8s;
+    transition: all 0.8s;
+}
+
+.portfolio-container:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.portfolio-details{
+    position:  absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.portfolio-details h2{
+    margin-bottom: 0px;
+}
+
+.portfolio-details h2{
+    margin-bottom: 0px;
+}
+.portfolio-details a h2, .portfolio-details a p{
+    color: #ffffff;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+   h1 { font-size: 40px; line-height: normal;}
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {}
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {}
